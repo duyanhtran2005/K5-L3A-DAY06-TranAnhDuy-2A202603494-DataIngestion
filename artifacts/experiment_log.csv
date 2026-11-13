@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,document_id|source|page|section,none,OpenRouter:openai/text-embedding-3-small:1536,Fixed windows may split complete evidence at boundaries,3/20,7/20,3/10,4/10,"244 chunks; ingest 18.814 s; 20814 embedding tokens; dev evidence containment 18/20 (Q01 and Q04 split); estimated ingest model cost USD 0.00041628 at USD 0.02 per million tokens; 10-position coherence 1.4/2; five-test grounding 1.0/2; hypothesis logged after chunk check and ingest"
+B,heading_sentence,500,0,document_id|source|page|section,none,OpenRouter:openai/text-embedding-3-small:1536,Structure-aware chunks may preserve complete evidence better than A,8/20,9/20,7/10,10/10,"351 chunks; ingest 24.724 s; 18754 embedding tokens; dev evidence containment 20/20; estimated ingest model cost USD 0.00037508; 10-position coherence 2.0/2; five-test grounding 2.0/2; hypothesis logged after chunk check and ingest"
+C,heading_sentence,500,0,document_id|source|page|section,section when question supplies it,OpenRouter:openai/text-embedding-3-small:1536,Filtering may improve section-specific queries while incorrect or sparse tags may remove useful hits,8/20,9/20,7/10,10/10,"Same 351 chunks and vectors as B; store 0.526 s; 0 additional document embedding tokens; C test filter compliance 4/4; 10-position coherence 2.0/2; five-test grounding 2.0/2; query embedding cost is shared across strategies"

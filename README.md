@@ -10,7 +10,7 @@ Biến tài liệu thành kho tri thức có thể truy xuất cho AI agent, r�
 
 ## Bắt đầu nhanh
 
-Dùng [starter PostgreSQL + pgvector](starter/README.md) để dựng database và hoàn thiện các hàm TODO, hoặc tự chọn vector store tương đương. Starter chỉ là khung: **bạn tự hiện thực pipeline và benchmark**.
+Dùng [starter PostgreSQL + pgvector](starter/README.md) để dựng database. Các hàm TODO trong `starter/src/` đã được hoàn thiện cho bài làm này; lệnh chạy nằm ở phần cuối README.
 
 ## 1. Xây pipeline
 
@@ -45,3 +45,72 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 | Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
 
 [data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+
+## Bài làm và cách chạy
+
+Ba cấu hình được so sánh trên cùng PDF:
+
+| Cấu hình | Chia chunk | Truy xuất |
+|---|---|---|
+| A | Cố định 500 ký tự, overlap 50 | Không lọc |
+| B | Theo heading và câu, tối đa 500 ký tự | Không lọc |
+| C | Cùng chunk và vector với B | Lọc `section` khi câu hỏi yêu cầu |
+
+Cả ba dùng OpenRouter `openai/text-embedding-3-small` (1536 chiều), PostgreSQL 16.16 + pgvector 0.8.7 và cosine exact search. Benchmark gồm 20 câu dev và 10 câu test trong `benchmark/questions.json`.
+
+| Cấu hình | Dev Hit@1 | Dev Evidence Hit@3 | Test Hit@1 | Test Evidence Hit@3 |
+|---|---:|---:|---:|---:|
+| A | 3/20 | 7/20 | 3/10 | 4/10 |
+| B | 8/20 | 9/20 | 7/10 | 10/10 |
+| C | 8/20 | 9/20 | 7/10 | 10/10 |
+
+### Dữ liệu
+
+Tải [PDF NIST AI RMF 1.0](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf) và đặt tên `NIST.AI.100-1.pdf` tại thư mục gốc của repo. Pipeline dùng các trang PDF 6–47. Nguồn, quyền sử dụng, quy tắc chọn trang và SHA-256 của file được ghi trong `data/manifest.json`.
+
+### Thiết lập
+
+Cần Python 3.13, Docker Compose và OpenRouter API key. Chạy trong PowerShell từ thư mục gốc của repo:
+
+```powershell
+cd starter
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+python -m pip install pypdf==6.21.3 requests==2.34.2
+Copy-Item .env.example .env
+```
+
+Trong `starter/.env`, điền `OPENROUTER_API_KEY` và đặt:
+
+```text
+EMBEDDING_MODEL=openai/text-embedding-3-small
+```
+
+`DATABASE_URL` mẫu trỏ tới database local `Lab06` ở cổng `55433`. Không commit `.env` hoặc API key.
+
+### Chạy thí nghiệm
+
+```powershell
+docker compose -p day6_student_starter up -d --wait
+python scripts/check_setup.py
+python -m src.run
+python -m src.run dev
+python -m src.run test
+```
+
+`python -m src.run` đọc PDF, tạo chunk, embedding và lưu A/B/C. Hai lệnh sau truy xuất top-3 và ghi kết quả riêng cho dev, test. Chạy `dev` trước, chốt cấu hình, rồi mới xem `test`. Việc chạy lại lệnh ingest sẽ gọi API embedding và phát sinh thêm token.
+
+### Kết quả và báo cáo
+
+- `data/manifest.json`: nguồn dữ liệu và các trang được chọn.
+- `benchmark/questions.json`: câu hỏi, split, đáp án và gold evidence.
+- `artifacts/experiment_log.csv`: cấu hình, giả thuyết và kết quả A/B/C.
+- `starter/results/ingest_summary.json`: số chunk, thời gian và token ingest.
+- `starter/results/dev_metrics.json`, `starter/results/test_metrics.json`: Hit@1 và Evidence Hit@3.
+- `starter/results/dev_traces.json`, `starter/results/test_traces.json`: đầy đủ top-3, điểm tương đồng và metadata.
+- `artifacts/manual_test_labels.csv`, `artifacts/manual_chunk_coherence.csv`: nhãn và lý do chấm thủ công.
+- `report/individual/2A202603494_TranAnhDuy.md`: phân tích và kết luận.
+- `STUDENT.md`: thông tin học viên và repo bài nộp.
+
+Số ký tự của cả 42 trang trong manifest đã được đối chiếu với bộ chuẩn hóa của pipeline bằng `pypdf` 6.21.3; không có trang được chọn nào rỗng.

@@ -1,0 +1,27 @@
+{
+  "provider": "OpenRouter",
+  "model": "openai/text-embedding-3-small",
+  "dimensions": 1536,
+  "metric": "cosine",
+  "search": "exact",
+  "pdf_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+  "strategies": {
+    "A": {
+      "chunks": 244,
+      "seconds": 18.813810400000875,
+      "embedding_tokens": 20814
+    },
+    "B": {
+      "chunks": 351,
+      "seconds": 24.724456799998734,
+      "embedding_tokens": 18754
+    },
+    "C": {
+      "chunks": 351,
+      "seconds": 0.526148099999773,
+      "embedding_tokens": 0
+    }
+  },
+  "embedding_tokens_total": 39568,
+  "cost_usd": null
+}

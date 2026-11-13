@@ -1,0 +1,301 @@
+{
+  "manifest_version": "1.0",
+  "source_id": "nist-ai-100-1",
+  "document_id": "nist-ai-100-1",
+  "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+  "publisher": "National Institute of Standards and Technology (NIST)",
+  "publication_id": "NIST AI 100-1",
+  "publication_year": 2023,
+  "document_version": "1.0",
+  "source_path_or_url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+  "local_path": "NIST.AI.100-1.pdf",
+  "accessed_at": "2026-11-13",
+  "license_or_permission": "NIST Technical Series publication. NIST states that NIST-authored works may be reused worldwide with attribution; independently copyrighted third-party components require separate review.",
+  "rights_policy_url": "https://www.nist.gov/nist-research-library/nist-publications",
+  "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, National Institute of Standards and Technology. Republished courtesy of the National Institute of Standards and Technology.",
+  "file_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+  "pdf_total_pages": 48,
+  "content_page_count": 42,
+  "content_page_rule": "Use physical PDF pages 6-47 inclusive, which contain relevant text, tables, figures/captions, or appendices. Exclude PDF pages 1-5 (cover/front matter/table of contents/list of figures) and 48 (final imprint/logo page). Printed page number = PDF page number - 5.",
+  "excluded_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    48
+  ],
+  "text_extraction": {
+    "tool": "pypdf",
+    "tool_version": "6.21.3",
+    "count_status": "All 42 per-page normalized character counts match the final pipeline normalizer with pypdf 6.21.3; no selected page is empty",
+    "normalization_for_count": "Unicode NFC; join a word split by hyphen plus newline; collapse whitespace; remove whitespace before comma, period, semicolon, or colon"
+  },
+  "filter_metadata_plan": {
+    "field": "section",
+    "allowed_values": [
+      "GOVERN",
+      "MAP",
+      "MEASURE",
+      "MANAGE"
+    ],
+    "value_source": "Section headings and labeled Core tables in the PDF",
+    "assignment_unit": "chunk, not whole page",
+    "unmatched_value": null,
+    "boundary_note": "Some PDF pages contain a transition between sections; derive section from the heading governing each chunk rather than assigning one value to the whole page."
+  },
+  "pages": [
+    {
+      "page_id": "nist-ai-100-1:p06",
+      "pdf_page": 6,
+      "printed_page": 1,
+      "normalized_char_count": 3088
+    },
+    {
+      "page_id": "nist-ai-100-1:p07",
+      "pdf_page": 7,
+      "printed_page": 2,
+      "normalized_char_count": 3093
+    },
+    {
+      "page_id": "nist-ai-100-1:p08",
+      "pdf_page": 8,
+      "printed_page": 3,
+      "normalized_char_count": 1861
+    },
+    {
+      "page_id": "nist-ai-100-1:p09",
+      "pdf_page": 9,
+      "printed_page": 4,
+      "normalized_char_count": 2738
+    },
+    {
+      "page_id": "nist-ai-100-1:p10",
+      "pdf_page": 10,
+      "printed_page": 5,
+      "normalized_char_count": 1883
+    },
+    {
+      "page_id": "nist-ai-100-1:p11",
+      "pdf_page": 11,
+      "printed_page": 6,
+      "normalized_char_count": 2760
+    },
+    {
+      "page_id": "nist-ai-100-1:p12",
+      "pdf_page": 12,
+      "printed_page": 7,
+      "normalized_char_count": 2956
+    },
+    {
+      "page_id": "nist-ai-100-1:p13",
+      "pdf_page": 13,
+      "printed_page": 8,
+      "normalized_char_count": 3125
+    },
+    {
+      "page_id": "nist-ai-100-1:p14",
+      "pdf_page": 14,
+      "printed_page": 9,
+      "normalized_char_count": 3044
+    },
+    {
+      "page_id": "nist-ai-100-1:p15",
+      "pdf_page": 15,
+      "printed_page": 10,
+      "normalized_char_count": 1581
+    },
+    {
+      "page_id": "nist-ai-100-1:p16",
+      "pdf_page": 16,
+      "printed_page": 11,
+      "normalized_char_count": 409
+    },
+    {
+      "page_id": "nist-ai-100-1:p17",
+      "pdf_page": 17,
+      "printed_page": 12,
+      "normalized_char_count": 2632
+    },
+    {
+      "page_id": "nist-ai-100-1:p18",
+      "pdf_page": 18,
+      "printed_page": 13,
+      "normalized_char_count": 2976
+    },
+    {
+      "page_id": "nist-ai-100-1:p19",
+      "pdf_page": 19,
+      "printed_page": 14,
+      "normalized_char_count": 2776
+    },
+    {
+      "page_id": "nist-ai-100-1:p20",
+      "pdf_page": 20,
+      "printed_page": 15,
+      "normalized_char_count": 3113
+    },
+    {
+      "page_id": "nist-ai-100-1:p21",
+      "pdf_page": 21,
+      "printed_page": 16,
+      "normalized_char_count": 2918
+    },
+    {
+      "page_id": "nist-ai-100-1:p22",
+      "pdf_page": 22,
+      "printed_page": 17,
+      "normalized_char_count": 2819
+    },
+    {
+      "page_id": "nist-ai-100-1:p23",
+      "pdf_page": 23,
+      "printed_page": 18,
+      "normalized_char_count": 1668
+    },
+    {
+      "page_id": "nist-ai-100-1:p24",
+      "pdf_page": 24,
+      "printed_page": 19,
+      "normalized_char_count": 1876
+    },
+    {
+      "page_id": "nist-ai-100-1:p25",
+      "pdf_page": 25,
+      "printed_page": 20,
+      "normalized_char_count": 1280
+    },
+    {
+      "page_id": "nist-ai-100-1:p26",
+      "pdf_page": 26,
+      "printed_page": 21,
+      "normalized_char_count": 2684
+    },
+    {
+      "page_id": "nist-ai-100-1:p27",
+      "pdf_page": 27,
+      "printed_page": 22,
+      "normalized_char_count": 2428
+    },
+    {
+      "page_id": "nist-ai-100-1:p28",
+      "pdf_page": 28,
+      "printed_page": 23,
+      "normalized_char_count": 2291
+    },
+    {
+      "page_id": "nist-ai-100-1:p29",
+      "pdf_page": 29,
+      "printed_page": 24,
+      "normalized_char_count": 2464
+    },
+    {
+      "page_id": "nist-ai-100-1:p30",
+      "pdf_page": 30,
+      "printed_page": 25,
+      "normalized_char_count": 2751
+    },
+    {
+      "page_id": "nist-ai-100-1:p31",
+      "pdf_page": 31,
+      "printed_page": 26,
+      "normalized_char_count": 2080
+    },
+    {
+      "page_id": "nist-ai-100-1:p32",
+      "pdf_page": 32,
+      "printed_page": 27,
+      "normalized_char_count": 2318
+    },
+    {
+      "page_id": "nist-ai-100-1:p33",
+      "pdf_page": 33,
+      "printed_page": 28,
+      "normalized_char_count": 2727
+    },
+    {
+      "page_id": "nist-ai-100-1:p34",
+      "pdf_page": 34,
+      "printed_page": 29,
+      "normalized_char_count": 2093
+    },
+    {
+      "page_id": "nist-ai-100-1:p35",
+      "pdf_page": 35,
+      "printed_page": 30,
+      "normalized_char_count": 2051
+    },
+    {
+      "page_id": "nist-ai-100-1:p36",
+      "pdf_page": 36,
+      "printed_page": 31,
+      "normalized_char_count": 2379
+    },
+    {
+      "page_id": "nist-ai-100-1:p37",
+      "pdf_page": 37,
+      "printed_page": 32,
+      "normalized_char_count": 2255
+    },
+    {
+      "page_id": "nist-ai-100-1:p38",
+      "pdf_page": 38,
+      "printed_page": 33,
+      "normalized_char_count": 2654
+    },
+    {
+      "page_id": "nist-ai-100-1:p39",
+      "pdf_page": 39,
+      "printed_page": 34,
+      "normalized_char_count": 466
+    },
+    {
+      "page_id": "nist-ai-100-1:p40",
+      "pdf_page": 40,
+      "printed_page": 35,
+      "normalized_char_count": 3113
+    },
+    {
+      "page_id": "nist-ai-100-1:p41",
+      "pdf_page": 41,
+      "printed_page": 36,
+      "normalized_char_count": 3014
+    },
+    {
+      "page_id": "nist-ai-100-1:p42",
+      "pdf_page": 42,
+      "printed_page": 37,
+      "normalized_char_count": 2054
+    },
+    {
+      "page_id": "nist-ai-100-1:p43",
+      "pdf_page": 43,
+      "printed_page": 38,
+      "normalized_char_count": 2689
+    },
+    {
+      "page_id": "nist-ai-100-1:p44",
+      "pdf_page": 44,
+      "printed_page": 39,
+      "normalized_char_count": 2623
+    },
+    {
+      "page_id": "nist-ai-100-1:p45",
+      "pdf_page": 45,
+      "printed_page": 40,
+      "normalized_char_count": 2693
+    },
+    {
+      "page_id": "nist-ai-100-1:p46",
+      "pdf_page": 46,
+      "printed_page": 41,
+      "normalized_char_count": 2155
+    },
+    {
+      "page_id": "nist-ai-100-1:p47",
+      "pdf_page": 47,
+      "printed_page": 42,
+      "normalized_char_count": 2445
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "split": "dev",
+  "questions": 20,
+  "traces": 60,
+  "model": "openai/text-embedding-3-small",
+  "query_embedding_tokens": 648,
+  "elapsed_seconds": 19.4605401000008,
+  "metrics": {
+    "A": {
+      "dev": {
+        "N": 20,
+        "hit1_n": 3,
+        "hit3_n": 7
+      }
+    },
+    "B": {
+      "dev": {
+        "N": 20,
+        "hit1_n": 8,
+        "hit3_n": 9
+      }
+    },
+    "C": {
+      "dev": {
+        "N": 20,
+        "hit1_n": 8,
+        "hit3_n": 9
+      }
+    }
+  }
+}

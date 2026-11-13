@@ -1,0 +1,1779 @@
+[
+  {
+    "id": "Q08",
+    "split": "test",
+    "question": "Khi rủi ro tiêu cực không thể chấp nhận, cần làm gì với việc phát triển và triển khai?",
+    "expected_answer": "Dừng một cách an toàn cho đến khi quản lý đủ rủi ro.",
+    "filter": null,
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 13,
+        "evidence_quote": "development and deployment should cease in a safe manner until risks can be sufficiently managed."
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p47:fixed:500:50:1",
+        "text": "ansparent process. All stakeholders should have the opportunity to contribute to the AI RMF’s development. 3. Use clear and plain language that is understandable by a broad audience, including senior executives, government officials, non-governmental organization leadership, and those who are not AI professionals – while still of sufficient technical depth to be useful to practitioners. The AI RMF should allow for communication of AI risks across an organization, between organizations, with cust",
+        "score": 0.3000942147107437,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 47
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p37:fixed:500:50:1",
+        "text": "ieves its intended purposes and stated objectives and whether its development or deployment should proceed. MANAGE 1.2: Treatment of documented AI risks is prioritized based on impact, likelihood, and available resources or methods. MANAGE 1.3: Responses to the AI risks deemed high priority, as identified by the MAP function, are developed, planned, and documented. Risk response options can include mitigating, transferring, avoiding, or accepting. MANAGE 1.4: Negative residual risks (defined as ",
+        "score": 0.2978305654193134,
+        "metadata": {
+          "section": "MANAGE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 37
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p6:fixed:500:50:6",
+        "text": "inability. AI risk management can drive responsible uses and practices by prompting organizations and their internal teams who design, develop, and deploy AI to think more critically about context and potential or unexpected negative and positive impacts. Understanding and managing the risks of AI systems will help to enhance trustworthiness, and in turn, cultivate public trust. Page 1",
+        "score": 0.2792660053925228,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 6
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "Q08",
+    "split": "test",
+    "question": "Khi rủi ro tiêu cực không thể chấp nhận, cần làm gì với việc phát triển và triển khai?",
+    "expected_answer": "Dừng một cách an toàn cho đến khi quản lý đủ rủi ro.",
+    "filter": null,
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 13,
+        "evidence_quote": "development and deployment should cease in a safe manner until risks can be sufficiently managed."
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p47:paragraph:500:3",
+        "text": "2. Be consensus-driven and developed and regularly updated through an open, transparent process. All stakeholders should have the opportunity to contribute to the AI RMF’s development.",
+        "score": 0.31609419344407685,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 47
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p37:paragraph:500:3",
+        "text": "MANAGE 1.1: A determination is made as to whether the AI system achieves its intended purposes and stated objectives and whether its development or deployment should proceed.",
+        "score": 0.2952894741591845,
+        "metadata": {
+          "section": "MANAGE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 37
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p13:paragraph:500:1",
+        "text": "In cases where an AI system presents unacceptable negative risk levels – such as where significant negative impacts are imminent, severe harms are actually occurring, or catastrophic risks are present – development and deployment should cease in a safe manner until risks can be sufficiently managed. If an AI system’s development, deployment, and use cases are found to be low-risk in a specific context, that may suggest potentially lower prioritization.",
+        "score": 0.2937801511963687,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 13
+        },
+        "auto_evidence_hit": true
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "Q08",
+    "split": "test",
+    "question": "Khi rủi ro tiêu cực không thể chấp nhận, cần làm gì với việc phát triển và triển khai?",
+    "expected_answer": "Dừng một cách an toàn cho đến khi quản lý đủ rủi ro.",
+    "filter": null,
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 13,
+        "evidence_quote": "development and deployment should cease in a safe manner until risks can be sufficiently managed."
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p47:paragraph:500:3",
+        "text": "2. Be consensus-driven and developed and regularly updated through an open, transparent process. All stakeholders should have the opportunity to contribute to the AI RMF’s development.",
+        "score": 0.31609419344407685,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 47
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p37:paragraph:500:3",
+        "text": "MANAGE 1.1: A determination is made as to whether the AI system achieves its intended purposes and stated objectives and whether its development or deployment should proceed.",
+        "score": 0.2952894741591845,
+        "metadata": {
+          "section": "MANAGE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 37
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p13:paragraph:500:1",
+        "text": "In cases where an AI system presents unacceptable negative risk levels – such as where significant negative impacts are imminent, severe harms are actually occurring, or catastrophic risks are present – development and deployment should cease in a safe manner until risks can be sufficiently managed. If an AI system’s development, deployment, and use cases are found to be low-risk in a specific context, that may suggest potentially lower prioritization.",
+        "score": 0.2937801511963687,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 13
+        },
+        "auto_evidence_hit": true
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "Q15",
+    "split": "test",
+    "question": "Transparency, explainability và interpretability lần lượt trả lời những câu hỏi nào?",
+    "expected_answer": "Điều gì xảy ra; quyết định được tạo ra thế nào; vì sao quyết định được tạo ra.",
+    "filter": null,
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 22,
+        "evidence_quote": "Transparency can answer the question of “what happened” in the system. Explainability can answer the question of “how” a decision was made in the system. Interpretability can answer the question of “why” a decision was made by the system"
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p22:fixed:500:50:1",
+        "text": " Transparency can answer the question of “what happened” in the system. Explainability can answer the question of “how” a decision was made in the system. Interpretability can answer the question of “why” a decision was made by the system and its meaning or context to the user. 3.6 Privacy-Enhanced Privacy refers generally to the norms and practices that help to safeguard human autonomy, identity, and dignity. These norms and practices typically address freedom from intrusion, limiting observati",
+        "score": 0.6296571780041326,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 22
+        },
+        "auto_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p22:fixed:500:50:0",
+        "text": "NIST AI 100-1 AI RMF 1.0 Risks to interpretability often can be addressed by communicating a description of why an AI system made a particular prediction or recommendation. (See “Four Principles of Explainable Artificial Intelligence” and “Psychological Foundations of Explainability and Interpretability in Artificial Intelligence” found here.) Transparency, explainability, and interpretability are distinct characteristics that support each other. Transparency can answer the question of “what hap",
+        "score": 0.5619113441737392,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 22
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p21:fixed:500:50:4",
+        "text": "e and Interpretable Explainability refers to a representation of the mechanisms underlying AI systems’ operation, whereas interpretability refers to the meaning of AI systems’ output in the context of their designed functional purposes. Together, explainability and interpretability assist those operating or overseeing an AI system, as well as users of an AI system, to gain deeper insights into the functionality and trustworthiness of the system, including its outputs. The underlying assumption i",
+        "score": 0.5426688196252742,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 21
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "Q15",
+    "split": "test",
+    "question": "Transparency, explainability và interpretability lần lượt trả lời những câu hỏi nào?",
+    "expected_answer": "Điều gì xảy ra; quyết định được tạo ra thế nào; vì sao quyết định được tạo ra.",
+    "filter": null,
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 22,
+        "evidence_quote": "Transparency can answer the question of “what happened” in the system. Explainability can answer the question of “how” a decision was made in the system. Interpretability can answer the question of “why” a decision was made by the system"
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p22:paragraph:500:1",
+        "text": "Transparency can answer the question of “what happened” in the system. Explainability can answer the question of “how” a decision was made in the system. Interpretability can answer the question of “why” a decision was made by the system and its meaning or context to the user.",
+        "score": 0.7281155702543001,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 22
+        },
+        "auto_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p21:paragraph:500:5",
+        "text": "3.5 Explainable and Interpretable Explainability refers to a representation of the mechanisms underlying AI systems’ operation, whereas interpretability refers to the meaning of AI systems’ output in the context of their designed functional purposes. Together, explainability and interpretability assist those operating or overseeing an AI system, as well as users of an AI system, to gain deeper insights into the functionality and trustworthiness of the system, including its outputs.",
+        "score": 0.5742538707778492,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 21
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p22:paragraph:500:0",
+        "text": "NIST AI 100-1 AI RMF 1.0 Risks to interpretability often can be addressed by communicating a description of why an AI system made a particular prediction or recommendation. (See “Four Principles of Explainable Artificial Intelligence” and “Psychological Foundations of Explainability and Interpretability in Artificial Intelligence” found here.) Transparency, explainability, and interpretability are distinct characteristics that support each other.",
+        "score": 0.5479044092826851,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 22
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "Q15",
+    "split": "test",
+    "question": "Transparency, explainability và interpretability lần lượt trả lời những câu hỏi nào?",
+    "expected_answer": "Điều gì xảy ra; quyết định được tạo ra thế nào; vì sao quyết định được tạo ra.",
+    "filter": null,
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 22,
+        "evidence_quote": "Transparency can answer the question of “what happened” in the system. Explainability can answer the question of “how” a decision was made in the system. Interpretability can answer the question of “why” a decision was made by the system"
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p22:paragraph:500:1",
+        "text": "Transparency can answer the question of “what happened” in the system. Explainability can answer the question of “how” a decision was made in the system. Interpretability can answer the question of “why” a decision was made by the system and its meaning or context to the user.",
+        "score": 0.7281155702543001,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 22
+        },
+        "auto_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p21:paragraph:500:5",
+        "text": "3.5 Explainable and Interpretable Explainability refers to a representation of the mechanisms underlying AI systems’ operation, whereas interpretability refers to the meaning of AI systems’ output in the context of their designed functional purposes. Together, explainability and interpretability assist those operating or overseeing an AI system, as well as users of an AI system, to gain deeper insights into the functionality and trustworthiness of the system, including its outputs.",
+        "score": 0.5742538707778492,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 21
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p22:paragraph:500:0",
+        "text": "NIST AI 100-1 AI RMF 1.0 Risks to interpretability often can be addressed by communicating a description of why an AI system made a particular prediction or recommendation. (See “Four Principles of Explainable Artificial Intelligence” and “Psychological Foundations of Explainability and Interpretability in Artificial Intelligence” found here.) Transparency, explainability, and interpretability are distinct characteristics that support each other.",
+        "score": 0.5479044092826851,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 22
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "Q18",
+    "split": "test",
+    "question": "Trong GOVERN, lãnh đạo cấp cao có vai trò gì đối với văn hóa quản lý rủi ro?",
+    "expected_answer": "Định hướng cách quản lý rủi ro và văn hóa tổ chức.",
+    "filter": {
+      "section": "GOVERN"
+    },
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 27,
+        "evidence_quote": "Senior leadership sets the tone for risk management within an organization, and with it, organizational culture."
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p27:fixed:500:50:1",
+        "text": "governance can drive and enhance internal practices and norms to facilitate organizational risk culture. Governing authorities can determine the overarching policies that direct an organization’s mission, goals, values, culture, and risk tolerance. Senior leadership sets the tone for risk management within an organization, and with it, organizational culture. Management aligns the technical aspects of AI risk management to policies and operations. Documentation can enhance transparency, improve ",
+        "score": 0.3348302611926206,
+        "metadata": {
+          "section": "GOVERN",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 27
+        },
+        "auto_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p27:fixed:500:50:0",
+        "text": "NIST AI 100-1 AI RMF 1.0 GOVERN is a cross-cutting function that is infused throughout AI risk management and enables the other functions of the process. Aspects of GOVERN, especially those related to compliance or evaluation, should be integrated into each of the other functions. Attention to governance is a continual and intrinsic requirement for effective AI risk management over an AI system’s lifespan and the organization’s hierarchy. Strong governance can drive and enhance internal practice",
+        "score": 0.33366714060327873,
+        "metadata": {
+          "section": "GOVERN",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 27
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p28:fixed:500:50:1",
+        "text": "s. GOVERN 1.7: Processes and procedures are in place for decommissioning and phasing out AI systems safely and in a manner that does not increase risks or decrease the organization’s trustworthiness. GOVERN 2: Accountability structures are in place so that the appropriate teams and individuals are empowered, responsible, and trained for mapping, measuring, and managing AI risks. GOVERN 2.1: Roles and responsibilities and lines of communication related to mapping, measuring, and managing AI risks",
+        "score": 0.312428132048002,
+        "metadata": {
+          "section": "GOVERN",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 28
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "Q18",
+    "split": "test",
+    "question": "Trong GOVERN, lãnh đạo cấp cao có vai trò gì đối với văn hóa quản lý rủi ro?",
+    "expected_answer": "Định hướng cách quản lý rủi ro và văn hóa tổ chức.",
+    "filter": {
+      "section": "GOVERN"
+    },
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 27,
+        "evidence_quote": "Senior leadership sets the tone for risk management within an organization, and with it, organizational culture."
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p27:paragraph:500:1",
+        "text": "Strong governance can drive and enhance internal practices and norms to facilitate organizational risk culture. Governing authorities can determine the overarching policies that direct an organization’s mission, goals, values, culture, and risk tolerance. Senior leadership sets the tone for risk management within an organization, and with it, organizational culture. Management aligns the technical aspects of AI risk management to policies and operations.",
+        "score": 0.3729791447920876,
+        "metadata": {
+          "section": "GOVERN",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 27
+        },
+        "auto_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p32:paragraph:500:8",
+        "text": "MAP 3.5: Processes for human oversight are defined, assessed, and documented in accordance with organizational policies from the GOVERN function.",
+        "score": 0.3563594253627981,
+        "metadata": {
+          "section": "MAP",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 32
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p26:paragraph:500:4",
+        "text": "5.1 Govern The GOVERN function: • cultivates and implements a culture of risk management within organizations designing, developing, deploying, evaluating, or acquiring AI systems; • outlines processes, documents, and organizational schemes that anticipate, identify, and manage the risks a system can pose, including to users and others across society – and procedures to achieve those outcomes; • incorporates processes to assess potential impacts; • provides a structure by which AI risk",
+        "score": 0.3371941613185754,
+        "metadata": {
+          "section": "GOVERN",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 26
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "Q18",
+    "split": "test",
+    "question": "Trong GOVERN, lãnh đạo cấp cao có vai trò gì đối với văn hóa quản lý rủi ro?",
+    "expected_answer": "Định hướng cách quản lý rủi ro và văn hóa tổ chức.",
+    "filter": {
+      "section": "GOVERN"
+    },
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 27,
+        "evidence_quote": "Senior leadership sets the tone for risk management within an organization, and with it, organizational culture."
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p27:paragraph:500:1",
+        "text": "Strong governance can drive and enhance internal practices and norms to facilitate organizational risk culture. Governing authorities can determine the overarching policies that direct an organization’s mission, goals, values, culture, and risk tolerance. Senior leadership sets the tone for risk management within an organization, and with it, organizational culture. Management aligns the technical aspects of AI risk management to policies and operations.",
+        "score": 0.3729791447920876,
+        "metadata": {
+          "section": "GOVERN",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 27
+        },
+        "auto_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p26:paragraph:500:4",
+        "text": "5.1 Govern The GOVERN function: • cultivates and implements a culture of risk management within organizations designing, developing, deploying, evaluating, or acquiring AI systems; • outlines processes, documents, and organizational schemes that anticipate, identify, and manage the risks a system can pose, including to users and others across society – and procedures to achieve those outcomes; • incorporates processes to assess potential impacts; • provides a structure by which AI risk",
+        "score": 0.3371941613185754,
+        "metadata": {
+          "section": "GOVERN",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 26
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p27:paragraph:500:0",
+        "text": "NIST AI 100-1 AI RMF 1.0 GOVERN is a cross-cutting function that is infused throughout AI risk management and enables the other functions of the process. Aspects of GOVERN, especially those related to compliance or evaluation, should be integrated into each of the other functions. Attention to governance is a continual and intrinsic requirement for effective AI risk management over an AI system’s lifespan and the organization’s hierarchy.",
+        "score": 0.3311692560071028,
+        "metadata": {
+          "section": "GOVERN",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 27
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": {
+      "section": "GOVERN"
+    }
+  },
+  {
+    "id": "Q22",
+    "split": "test",
+    "question": "Trong MAP 1.1, cần hiểu và ghi lại điều gì về nơi sẽ triển khai hệ thống AI?",
+    "expected_answer": "Các môi trường triển khai dự kiến.",
+    "filter": {
+      "section": "MAP"
+    },
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 31,
+        "evidence_quote": "prospective settings in which the AI system will be deployed are understood and documented."
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p32:fixed:500:50:2",
+        "text": "sed on the system’s capability, established context, and AI system categorization. MAP 3.4: Processes for operator and practitioner proficiency with AI system performance and trustworthiness – and relevant technical standards and certifications – are defined, assessed, and documented. MAP 3.5: Processes for human oversight are defined, assessed, and documented in accordance with organizational policies from the GOVERN function. MAP 4: Risks and benefits are mapped for all components of the AI sy",
+        "score": 0.5616708637819573,
+        "metadata": {
+          "section": "MAP",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 32
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p32:fixed:500:50:1",
+        "text": "ed with appropriate benchmarks are understood. MAP 3.1: Potential benefits of intended AI system functionality and performance are examined and documented. MAP 3.2: Potential costs, including non-monetary costs, which result from expected or realized AI errors or system functionality and trustworthiness – as connected to organizational risk tolerance – are examined and documented. MAP 3.3: Targeted application scope is specified and documented based on the system’s capability, established contex",
+        "score": 0.5537264626068672,
+        "metadata": {
+          "section": "MAP",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 32
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p31:fixed:500:50:2",
+        "text": "cipation is documented. Opportunities for interdisciplinary collaboration are prioritized. MAP 1.3: The organization’s mission and relevant goals for AI technology are understood and documented. MAP 1.4: The business value or context of business use has been clearly defined or – in the case of assessing existing AI systems – re-evaluated. MAP 1.5: Organizational risk tolerances are determined and documented. MAP 1.6: System requirements (e.g., “the system shall respect the privacy of its users”)",
+        "score": 0.546134857256667,
+        "metadata": {
+          "section": "MAP",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 31
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "Q22",
+    "split": "test",
+    "question": "Trong MAP 1.1, cần hiểu và ghi lại điều gì về nơi sẽ triển khai hệ thống AI?",
+    "expected_answer": "Các môi trường triển khai dự kiến.",
+    "filter": {
+      "section": "MAP"
+    },
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 31,
+        "evidence_quote": "prospective settings in which the AI system will be deployed are understood and documented."
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p31:paragraph:500:6",
+        "text": "MAP 1.3: The organization’s mission and relevant goals for AI technology are understood and documented.",
+        "score": 0.5859828956442841,
+        "metadata": {
+          "section": "MAP",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 31
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p31:paragraph:500:3",
+        "text": "MAP 1.1: Intended purposes, potentially beneficial uses, contextspecific laws, norms and expectations, and prospective settings in which the AI system will be deployed are understood and documented.",
+        "score": 0.5816373590711127,
+        "metadata": {
+          "section": "MAP",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 31
+        },
+        "auto_evidence_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p29:paragraph:500:10",
+        "text": "5.2 Map The MAP function establishes the context to frame risks related to an AI system. The AI lifecycle consists of many interdependent activities involving a diverse set of actors (See Figure 3). In practice, AI actors in charge of one part of the process often do not have full visibility or control over other parts and their associated contexts.",
+        "score": 0.5521427456051073,
+        "metadata": {
+          "section": "MAP",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 29
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "Q22",
+    "split": "test",
+    "question": "Trong MAP 1.1, cần hiểu và ghi lại điều gì về nơi sẽ triển khai hệ thống AI?",
+    "expected_answer": "Các môi trường triển khai dự kiến.",
+    "filter": {
+      "section": "MAP"
+    },
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 31,
+        "evidence_quote": "prospective settings in which the AI system will be deployed are understood and documented."
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p31:paragraph:500:6",
+        "text": "MAP 1.3: The organization’s mission and relevant goals for AI technology are understood and documented.",
+        "score": 0.5859828956442841,
+        "metadata": {
+          "section": "MAP",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 31
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p31:paragraph:500:3",
+        "text": "MAP 1.1: Intended purposes, potentially beneficial uses, contextspecific laws, norms and expectations, and prospective settings in which the AI system will be deployed are understood and documented.",
+        "score": 0.5816373590711127,
+        "metadata": {
+          "section": "MAP",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 31
+        },
+        "auto_evidence_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p29:paragraph:500:10",
+        "text": "5.2 Map The MAP function establishes the context to frame risks related to an AI system. The AI lifecycle consists of many interdependent activities involving a diverse set of actors (See Figure 3). In practice, AI actors in charge of one part of the process often do not have full visibility or control over other parts and their associated contexts.",
+        "score": 0.5521427456051073,
+        "metadata": {
+          "section": "MAP",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 29
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": {
+      "section": "MAP"
+    }
+  },
+  {
+    "id": "Q23",
+    "split": "test",
+    "question": "MAP 4 yêu cầu lập bản đồ rủi ro và lợi ích của những thành phần nào?",
+    "expected_answer": "Tất cả thành phần hệ thống, gồm phần mềm và dữ liệu bên thứ ba.",
+    "filter": null,
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 32,
+        "evidence_quote": "MAP 4: Risks and benefits are mapped for all components of the AI system including third-party software and data."
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p32:fixed:500:50:3",
+        "text": "enefits are mapped for all components of the AI system including third-party software and data. MAP 4.1: Approaches for mapping AI technology and legal risks of its components – including the use of third-party data or software – are in place, followed, and documented, as are risks of infringement of a third party’s intellectual property or other rights. MAP 4.2: Internal risk controls for components of the AI system, including third-party AI technologies, are identified and documented. MAP 5: I",
+        "score": 0.44147496164811617,
+        "metadata": {
+          "section": "MAP",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 32
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p32:fixed:500:50:0",
+        "text": "NIST AI 100-1 AI RMF 1.0 Table 2: Categories and subcategories for the MAP function. (Continued) MAP 2.3: Scientific integrity and TEVV considerations are identified and documented, including those related to experimental design, data collection and selection (e.g., availability, representativeness, suitability), system trustworthiness, and construct validation. MAP 3: AI capabilities, targeted usage, goals, and expected benefits and costs compared with appropriate benchmarks are understood. MAP",
+        "score": 0.429224425955437,
+        "metadata": {
+          "section": "MAP",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 32
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p31:fixed:500:50:0",
+        "text": "NIST AI 100-1 AI RMF 1.0 Table 2: Categories and subcategories for the MAP function. MAP 1: Context is established and understood. MAP 1.1: Intended purposes, potentially beneficial uses, contextspecific laws, norms and expectations, and prospective settings in which the AI system will be deployed are understood and documented. Considerations include: the specific set or types of users along with their expectations; potential positive and negative impacts of system uses to individuals, communiti",
+        "score": 0.40938086703269627,
+        "metadata": {
+          "section": "MAP",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 31
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "Q23",
+    "split": "test",
+    "question": "MAP 4 yêu cầu lập bản đồ rủi ro và lợi ích của những thành phần nào?",
+    "expected_answer": "Tất cả thành phần hệ thống, gồm phần mềm và dữ liệu bên thứ ba.",
+    "filter": null,
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 32,
+        "evidence_quote": "MAP 4: Risks and benefits are mapped for all components of the AI system including third-party software and data."
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p32:paragraph:500:9",
+        "text": "MAP 4: Risks and benefits are mapped for all components of the AI system including third-party software and data.",
+        "score": 0.49004195925717364,
+        "metadata": {
+          "section": "MAP",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 32
+        },
+        "auto_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p32:paragraph:500:10",
+        "text": "MAP 4.1: Approaches for mapping AI technology and legal risks of its components – including the use of third-party data or software – are in place, followed, and documented, as are risks of infringement of a third party’s intellectual property or other rights.",
+        "score": 0.4169432296097919,
+        "metadata": {
+          "section": "MAP",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 32
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p30:paragraph:500:2",
+        "text": "The MAP function is intended to enhance an organization’s ability to identify risks and broader contributing factors. Implementation of this function is enhanced by incorporating perspectives from a diverse internal team and engagement with those external to the team that developed or deployed the AI system.",
+        "score": 0.4067097971036975,
+        "metadata": {
+          "section": "MAP",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 30
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "Q23",
+    "split": "test",
+    "question": "MAP 4 yêu cầu lập bản đồ rủi ro và lợi ích của những thành phần nào?",
+    "expected_answer": "Tất cả thành phần hệ thống, gồm phần mềm và dữ liệu bên thứ ba.",
+    "filter": null,
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 32,
+        "evidence_quote": "MAP 4: Risks and benefits are mapped for all components of the AI system including third-party software and data."
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p32:paragraph:500:9",
+        "text": "MAP 4: Risks and benefits are mapped for all components of the AI system including third-party software and data.",
+        "score": 0.49004195925717364,
+        "metadata": {
+          "section": "MAP",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 32
+        },
+        "auto_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p32:paragraph:500:10",
+        "text": "MAP 4.1: Approaches for mapping AI technology and legal risks of its components – including the use of third-party data or software – are in place, followed, and documented, as are risks of infringement of a third party’s intellectual property or other rights.",
+        "score": 0.4169432296097919,
+        "metadata": {
+          "section": "MAP",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 32
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p30:paragraph:500:2",
+        "text": "The MAP function is intended to enhance an organization’s ability to identify risks and broader contributing factors. Implementation of this function is enhanced by incorporating perspectives from a diverse internal team and engagement with those external to the team that developed or deployed the AI system.",
+        "score": 0.4067097971036975,
+        "metadata": {
+          "section": "MAP",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 30
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "Q24",
+    "split": "test",
+    "question": "Trong MEASURE, những loại phương pháp nào được dùng để đánh giá rủi ro AI?",
+    "expected_answer": "Định lượng, định tính hoặc kết hợp.",
+    "filter": {
+      "section": "MEASURE"
+    },
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 33,
+        "evidence_quote": "The MEASURE function employs quantitative, qualitative, or mixed-method tools, techniques, and methodologies to analyze, assess, benchmark, and monitor AI risk and related impacts."
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p35:fixed:500:50:0",
+        "text": "NIST AI 100-1 AI RMF 1.0 Table 3: Categories and subcategories for the MEASURE function. (Continued) MEASURE 2.6: The AI system is evaluated regularly for safety risks – as identified in theMAP function. The AI system to be deployed is demonstrated to be safe, its residual negative risk does not exceed the risk tolerance, and it can fail safely, particularly if made to operate beyond its knowledge limits. Safety metrics reflect system reliability and robustness, real-time monitoring, and respons",
+        "score": 0.5423630259236735,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 35
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p34:fixed:500:50:0",
+        "text": "NIST AI 100-1 AI RMF 1.0 Practices related to measuring AI risks are described in the NIST AI RMF Playbook. Table 3 lists the MEASURE function’s categories and subcategories. Table 3: Categories and subcategories for the MEASURE function. MEASURE 1: Appropriate methods and metrics are identified and applied. MEASURE 1.1: Approaches and metrics for measurement of AI risks enumerated during the MAP function are selected for implementation starting with the most significant AI risks. The risks or t",
+        "score": 0.5389900118070531,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 34
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p36:fixed:500:50:0",
+        "text": "NIST AI 100-1 AI RMF 1.0 Table 3: Categories and subcategories for the MEASURE function. (Continued) MEASURE 3.3: Feedback processes for end users and impacted communities to report problems and appeal system outcomes are established and integrated into AI system evaluation metrics. MEASURE 4: Feedback about efficacy of measurement is gathered and assessed. MEASURE 4.1: Measurement approaches for identifying AI risks are connected to deployment context(s) and informed through consultation with d",
+        "score": 0.5281066349516578,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 36
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "Q24",
+    "split": "test",
+    "question": "Trong MEASURE, những loại phương pháp nào được dùng để đánh giá rủi ro AI?",
+    "expected_answer": "Định lượng, định tính hoặc kết hợp.",
+    "filter": {
+      "section": "MEASURE"
+    },
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 33,
+        "evidence_quote": "The MEASURE function employs quantitative, qualitative, or mixed-method tools, techniques, and methodologies to analyze, assess, benchmark, and monitor AI risk and related impacts."
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p33:paragraph:500:3",
+        "text": "5.3 Measure The MEASURE function employs quantitative, qualitative, or mixed-method tools, techniques, and methodologies to analyze, assess, benchmark, and monitor AI risk and related impacts. It uses knowledge relevant to AI risks identified in the MAP function and informs the MANAGE function. AI systems should be tested before their deployment and regularly while in operation. AI risk measurements include documenting aspects of systems’ functionality and trustworthiness.",
+        "score": 0.5749027351195612,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 33
+        },
+        "auto_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p33:paragraph:500:4",
+        "text": "Measuring AI risks includes tracking metrics for trustworthy characteristics, social impact, and human-AI configurations. Processes developed or adopted in the MEASURE function should include rigorous software testing and performance assessment methodologies with associated measures of uncertainty, comparisons to performance benchmarks, and formalized reporting and documentation of results.",
+        "score": 0.5480286059426038,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 33
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p34:paragraph:500:3",
+        "text": "MEASURE 1.1: Approaches and metrics for measurement of AI risks enumerated during the MAP function are selected for implementation starting with the most significant AI risks. The risks or trustworthiness characteristics that will not – or cannot – be measured are properly documented.",
+        "score": 0.5444669259523826,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 34
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "Q24",
+    "split": "test",
+    "question": "Trong MEASURE, những loại phương pháp nào được dùng để đánh giá rủi ro AI?",
+    "expected_answer": "Định lượng, định tính hoặc kết hợp.",
+    "filter": {
+      "section": "MEASURE"
+    },
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 33,
+        "evidence_quote": "The MEASURE function employs quantitative, qualitative, or mixed-method tools, techniques, and methodologies to analyze, assess, benchmark, and monitor AI risk and related impacts."
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p33:paragraph:500:3",
+        "text": "5.3 Measure The MEASURE function employs quantitative, qualitative, or mixed-method tools, techniques, and methodologies to analyze, assess, benchmark, and monitor AI risk and related impacts. It uses knowledge relevant to AI risks identified in the MAP function and informs the MANAGE function. AI systems should be tested before their deployment and regularly while in operation. AI risk measurements include documenting aspects of systems’ functionality and trustworthiness.",
+        "score": 0.5749027351195612,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 33
+        },
+        "auto_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p33:paragraph:500:4",
+        "text": "Measuring AI risks includes tracking metrics for trustworthy characteristics, social impact, and human-AI configurations. Processes developed or adopted in the MEASURE function should include rigorous software testing and performance assessment methodologies with associated measures of uncertainty, comparisons to performance benchmarks, and formalized reporting and documentation of results.",
+        "score": 0.5480286059426038,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 33
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p34:paragraph:500:3",
+        "text": "MEASURE 1.1: Approaches and metrics for measurement of AI risks enumerated during the MAP function are selected for implementation starting with the most significant AI risks. The risks or trustworthiness characteristics that will not – or cannot – be measured are properly documented.",
+        "score": 0.5444669259523826,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 34
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": {
+      "section": "MEASURE"
+    }
+  },
+  {
+    "id": "Q26",
+    "split": "test",
+    "question": "MEASURE 2.6 yêu cầu điều gì về an toàn của hệ thống trước khi triển khai?",
+    "expected_answer": "Chứng minh hệ thống an toàn, rủi ro còn lại không vượt ngưỡng chịu đựng và có thể thất bại an toàn.",
+    "filter": null,
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 35,
+        "evidence_quote": "The AI system to be deployed is demonstrated to be safe, its residual negative risk does not exceed the risk tolerance, and it can fail safely"
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p34:fixed:500:50:3",
+        "text": "s involving human subjects meet applicable requirements (including human subject protection) and are representative of the relevant population. MEASURE 2.3: AI system performance or assurance criteria are measured qualitatively or quantitatively and demonstrated for conditions similar to deployment setting(s). Measures are documented. MEASURE 2.4: The functionality and behavior of the AI system and its components – as identified in the MAP function – are monitored when in production. MEASURE 2.5",
+        "score": 0.48056285693507084,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 34
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p34:fixed:500:50:4",
+        "text": "on – are monitored when in production. MEASURE 2.5: The AI system to be deployed is demonstrated to be valid and reliable. Limitations of the generalizability beyond the conditions under which the technology was developed are documented. Categories Subcategories Continued on next page Page 29",
+        "score": 0.4509695819392394,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 34
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p35:fixed:500:50:1",
+        "text": " and robustness, real-time monitoring, and response times for AI system failures. MEASURE 2.7: AI system security and resilience – as identified in the MAP function – are evaluated and documented. MEASURE 2.8: Risks associated with transparency and accountability – as identified in the MAP function – are examined and documented. MEASURE 2.9: The AI model is explained, validated, and documented, and AI system output is interpreted within its context – as identified in the MAP function – to inform",
+        "score": 0.4400936174456471,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 35
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "Q26",
+    "split": "test",
+    "question": "MEASURE 2.6 yêu cầu điều gì về an toàn của hệ thống trước khi triển khai?",
+    "expected_answer": "Chứng minh hệ thống an toàn, rủi ro còn lại không vượt ngưỡng chịu đựng và có thể thất bại an toàn.",
+    "filter": null,
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 35,
+        "evidence_quote": "The AI system to be deployed is demonstrated to be safe, its residual negative risk does not exceed the risk tolerance, and it can fail safely"
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p35:paragraph:500:3",
+        "text": "MEASURE 2.7: AI system security and resilience – as identified in the MAP function – are evaluated and documented.",
+        "score": 0.5308971823759265,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 35
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p34:paragraph:500:9",
+        "text": "MEASURE 2.3: AI system performance or assurance criteria are measured qualitatively or quantitatively and demonstrated for conditions similar to deployment setting(s). Measures are documented.",
+        "score": 0.4860164418448707,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 34
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p35:paragraph:500:2",
+        "text": "MEASURE 2.6: The AI system is evaluated regularly for safety risks – as identified in theMAP function. The AI system to be deployed is demonstrated to be safe, its residual negative risk does not exceed the risk tolerance, and it can fail safely, particularly if made to operate beyond its knowledge limits. Safety metrics reflect system reliability and robustness, real-time monitoring, and response times for AI system failures.",
+        "score": 0.48142328316096084,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 35
+        },
+        "auto_evidence_hit": true
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "Q26",
+    "split": "test",
+    "question": "MEASURE 2.6 yêu cầu điều gì về an toàn của hệ thống trước khi triển khai?",
+    "expected_answer": "Chứng minh hệ thống an toàn, rủi ro còn lại không vượt ngưỡng chịu đựng và có thể thất bại an toàn.",
+    "filter": null,
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 35,
+        "evidence_quote": "The AI system to be deployed is demonstrated to be safe, its residual negative risk does not exceed the risk tolerance, and it can fail safely"
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p35:paragraph:500:3",
+        "text": "MEASURE 2.7: AI system security and resilience – as identified in the MAP function – are evaluated and documented.",
+        "score": 0.5308971823759265,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 35
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p34:paragraph:500:9",
+        "text": "MEASURE 2.3: AI system performance or assurance criteria are measured qualitatively or quantitatively and demonstrated for conditions similar to deployment setting(s). Measures are documented.",
+        "score": 0.4860164418448707,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 34
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p35:paragraph:500:2",
+        "text": "MEASURE 2.6: The AI system is evaluated regularly for safety risks – as identified in theMAP function. The AI system to be deployed is demonstrated to be safe, its residual negative risk does not exceed the risk tolerance, and it can fail safely, particularly if made to operate beyond its knowledge limits. Safety metrics reflect system reliability and robustness, real-time monitoring, and response times for AI system failures.",
+        "score": 0.48142328316096084,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 35
+        },
+        "auto_evidence_hit": true
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "Q27",
+    "split": "test",
+    "question": "MEASURE 3.3 yêu cầu cơ chế gì cho người dùng và cộng đồng bị tác động?",
+    "expected_answer": "Kênh báo vấn đề và khiếu nại kết quả hệ thống.",
+    "filter": null,
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 36,
+        "evidence_quote": "MEASURE 3.3: Feedback processes for end users and impacted communities to report problems and appeal system outcomes are established and integrated into AI system evaluation metrics."
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p33:fixed:500:50:2",
+        "text": "AI configurations. Processes developed or adopted in the MEASURE function should include rigorous software testing and performance assessment methodologies with associated measures of uncertainty, comparisons to performance benchmarks, and formalized reporting and documentation of results. Processes for independent review can improve the effectiveness of testing and can mitigate internal biases and potential conflicts of interest. Where tradeoffs among the trustworthy characteristics arise, meas",
+        "score": 0.3885555206858844,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 33
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p36:fixed:500:50:0",
+        "text": "NIST AI 100-1 AI RMF 1.0 Table 3: Categories and subcategories for the MEASURE function. (Continued) MEASURE 3.3: Feedback processes for end users and impacted communities to report problems and appeal system outcomes are established and integrated into AI system evaluation metrics. MEASURE 4: Feedback about efficacy of measurement is gathered and assessed. MEASURE 4.1: Measurement approaches for identifying AI risks are connected to deployment context(s) and informed through consultation with d",
+        "score": 0.38105415747092386,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 36
+        },
+        "auto_evidence_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p34:fixed:500:50:3",
+        "text": "s involving human subjects meet applicable requirements (including human subject protection) and are representative of the relevant population. MEASURE 2.3: AI system performance or assurance criteria are measured qualitatively or quantitatively and demonstrated for conditions similar to deployment setting(s). Measures are documented. MEASURE 2.4: The functionality and behavior of the AI system and its components – as identified in the MAP function – are monitored when in production. MEASURE 2.5",
+        "score": 0.37092093409747695,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 34
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "Q27",
+    "split": "test",
+    "question": "MEASURE 3.3 yêu cầu cơ chế gì cho người dùng và cộng đồng bị tác động?",
+    "expected_answer": "Kênh báo vấn đề và khiếu nại kết quả hệ thống.",
+    "filter": null,
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 36,
+        "evidence_quote": "MEASURE 3.3: Feedback processes for end users and impacted communities to report problems and appeal system outcomes are established and integrated into AI system evaluation metrics."
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p36:paragraph:500:2",
+        "text": "MEASURE 3.3: Feedback processes for end users and impacted communities to report problems and appeal system outcomes are established and integrated into AI system evaluation metrics.",
+        "score": 0.42680850456465125,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 36
+        },
+        "auto_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p36:paragraph:500:6",
+        "text": "MEASURE 4.3: Measurable performance improvements or declines based on consultations with relevant AI actors, including affected communities, and field data about contextrelevant risks and trustworthiness characteristics are identified and documented. Categories Subcategories",
+        "score": 0.35902219898766785,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 36
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p34:paragraph:500:8",
+        "text": "MEASURE 2.2: Evaluations involving human subjects meet applicable requirements (including human subject protection) and are representative of the relevant population.",
+        "score": 0.35513836154651246,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 34
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "Q27",
+    "split": "test",
+    "question": "MEASURE 3.3 yêu cầu cơ chế gì cho người dùng và cộng đồng bị tác động?",
+    "expected_answer": "Kênh báo vấn đề và khiếu nại kết quả hệ thống.",
+    "filter": null,
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 36,
+        "evidence_quote": "MEASURE 3.3: Feedback processes for end users and impacted communities to report problems and appeal system outcomes are established and integrated into AI system evaluation metrics."
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p36:paragraph:500:2",
+        "text": "MEASURE 3.3: Feedback processes for end users and impacted communities to report problems and appeal system outcomes are established and integrated into AI system evaluation metrics.",
+        "score": 0.42680850456465125,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 36
+        },
+        "auto_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p36:paragraph:500:6",
+        "text": "MEASURE 4.3: Measurable performance improvements or declines based on consultations with relevant AI actors, including affected communities, and field data about contextrelevant risks and trustworthiness characteristics are identified and documented. Categories Subcategories",
+        "score": 0.35902219898766785,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 36
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p34:paragraph:500:8",
+        "text": "MEASURE 2.2: Evaluations involving human subjects meet applicable requirements (including human subject protection) and are representative of the relevant population.",
+        "score": 0.35513836154651246,
+        "metadata": {
+          "section": "MEASURE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 34
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "Q29",
+    "split": "test",
+    "question": "Trong MANAGE 4.3, cần làm gì khi xảy ra sự cố hoặc lỗi AI?",
+    "expected_answer": "Thông báo cho các bên liên quan; theo dõi, ứng phó và khôi phục.",
+    "filter": {
+      "section": "MANAGE"
+    },
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 38,
+        "evidence_quote": "MANAGE 4.3: Incidents and errors are communicated to relevant AI actors, including affected communities. Processes for tracking, responding to, and recovering from incidents and errors are followed and documented."
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p38:fixed:500:50:1",
+        "text": "ide, decommissioning, incident response, recovery, and change management. MANAGE 4.2: Measurable activities for continual improvements are integrated into AI system updates and include regular engagement with interested parties, including relevant AI actors. MANAGE 4.3: Incidents and errors are communicated to relevant AI actors, including affected communities. Processes for tracking, responding to, and recovering from incidents and errors are followed and documented. Categories Subcategories 6.",
+        "score": 0.5236847696032279,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 38
+        },
+        "auto_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p37:fixed:500:50:2",
+        "text": ". MANAGE 1.4: Negative residual risks (defined as the sum of all unmitigated risks) to both downstream acquirers of AI systems and end users are documented. MANAGE 2: Strategies to maximize AI benefits and minimize negative impacts are planned, prepared, implemented, documented, and informed by input from relevant AI actors. MANAGE 2.1: Resources required to manage AI risks are taken into account – along with viable non-AI alternative systems, approaches, or methods – to reduce the magnitude or ",
+        "score": 0.47902258705155387,
+        "metadata": {
+          "section": "MANAGE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 37
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p37:fixed:500:50:4",
+        "text": "nstrate performance or outcomes inconsistent with intended use. MANAGE 3: AI risks and benefits from third-party entities are managed. MANAGE 3.1: AI risks and benefits from third-party resources are regularly monitored, and risk controls are applied and documented. MANAGE 3.2: Pre-trained models which are used for development are monitored as part of AI system regular monitoring and maintenance. Categories Subcategories Continued on next page Page 32",
+        "score": 0.4620429805319024,
+        "metadata": {
+          "section": "MANAGE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 37
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "Q29",
+    "split": "test",
+    "question": "Trong MANAGE 4.3, cần làm gì khi xảy ra sự cố hoặc lỗi AI?",
+    "expected_answer": "Thông báo cho các bên liên quan; theo dõi, ứng phó và khôi phục.",
+    "filter": {
+      "section": "MANAGE"
+    },
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 38,
+        "evidence_quote": "MANAGE 4.3: Incidents and errors are communicated to relevant AI actors, including affected communities. Processes for tracking, responding to, and recovering from incidents and errors are followed and documented."
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p38:paragraph:500:5",
+        "text": "MANAGE 4.3: Incidents and errors are communicated to relevant AI actors, including affected communities. Processes for tracking, responding to, and recovering from incidents and errors are followed and documented. Categories Subcategories",
+        "score": 0.5693252790856459,
+        "metadata": {
+          "section": "MANAGE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 38
+        },
+        "auto_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p38:paragraph:500:3",
+        "text": "MANAGE 4.1: Post-deployment AI system monitoring plans are implemented, including mechanisms for capturing and evaluating input from users and other relevant AI actors, appeal and override, decommissioning, incident response, recovery, and change management.",
+        "score": 0.5355319595306388,
+        "metadata": {
+          "section": "MANAGE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 38
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p37:paragraph:500:11",
+        "text": "MANAGE 2.4: Mechanisms are in place and applied, and responsibilities are assigned and understood, to supersede, disengage, or deactivate AI systems that demonstrate performance or outcomes inconsistent with intended use.",
+        "score": 0.5060256504294828,
+        "metadata": {
+          "section": "MANAGE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 37
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "Q29",
+    "split": "test",
+    "question": "Trong MANAGE 4.3, cần làm gì khi xảy ra sự cố hoặc lỗi AI?",
+    "expected_answer": "Thông báo cho các bên liên quan; theo dõi, ứng phó và khôi phục.",
+    "filter": {
+      "section": "MANAGE"
+    },
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 38,
+        "evidence_quote": "MANAGE 4.3: Incidents and errors are communicated to relevant AI actors, including affected communities. Processes for tracking, responding to, and recovering from incidents and errors are followed and documented."
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p38:paragraph:500:5",
+        "text": "MANAGE 4.3: Incidents and errors are communicated to relevant AI actors, including affected communities. Processes for tracking, responding to, and recovering from incidents and errors are followed and documented. Categories Subcategories",
+        "score": 0.5693252790856459,
+        "metadata": {
+          "section": "MANAGE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 38
+        },
+        "auto_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p38:paragraph:500:3",
+        "text": "MANAGE 4.1: Post-deployment AI system monitoring plans are implemented, including mechanisms for capturing and evaluating input from users and other relevant AI actors, appeal and override, decommissioning, incident response, recovery, and change management.",
+        "score": 0.5355319595306388,
+        "metadata": {
+          "section": "MANAGE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 38
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p37:paragraph:500:11",
+        "text": "MANAGE 2.4: Mechanisms are in place and applied, and responsibilities are assigned and understood, to supersede, disengage, or deactivate AI systems that demonstrate performance or outcomes inconsistent with intended use.",
+        "score": 0.5060256504294828,
+        "metadata": {
+          "section": "MANAGE",
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 37
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": {
+      "section": "MANAGE"
+    }
+  },
+  {
+    "id": "Q30",
+    "split": "test",
+    "question": "Theo Phụ lục B, một vấn đề của dữ liệu AI khiến rủi ro khác phần mềm truyền thống là gì?",
+    "expected_answer": "Dữ liệu có thể không đại diện đúng bối cảnh sử dụng; ground truth có thể không tồn tại hoặc không sẵn có.",
+    "filter": null,
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 43,
+        "evidence_quote": "The data used for building an AI system may not be a true or appropriate representation of the context or intended use of the AI system, and the ground truth may either not exist or not be available."
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p43:fixed:500:50:3",
+        "text": "ning may fundamentally alter AI system performance. • Datasets used to train AI systems may become detached from their original and intended context or may become stale or outdated relative to deployment context. • AI system scale and complexity (many systems contain billions or even trillions of decision points) housed within more traditional software applications. • Use of pre-trained models that can advance research and improve performance can also increase levels of statistical uncertainty a",
+        "score": 0.48401081630650755,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 43
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p43:fixed:500:50:2",
+        "text": "ntation of the context or intended use of the AI system, and the ground truth may either not exist or not be available. Additionally, harmful bias and other data quality issues can affect AI system trustworthiness, which could lead to negative impacts. • AI system dependency and reliance on data for training tasks, combined with increased volume and complexity typically associated with such data. • Intentional or unintentional changes during training may fundamentally alter AI system performance",
+        "score": 0.4623704736631793,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 43
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p6:fixed:500:50:3",
+        "text": "may be trained on data that can change over time, sometimes significantly and unexpectedly, affecting system functionality and trustworthiness in ways that are hard to understand. AI systems and the contexts in which they are deployed are frequently complex, making it difficult to detect and respond to failures when they occur. AI systems are inherently socio-technical in nature, meaning they are influenced by societal dynamics and human behavior. AI risks – and benefits – can emerge from the in",
+        "score": 0.45658761969183903,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 6
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "Q30",
+    "split": "test",
+    "question": "Theo Phụ lục B, một vấn đề của dữ liệu AI khiến rủi ro khác phần mềm truyền thống là gì?",
+    "expected_answer": "Dữ liệu có thể không đại diện đúng bối cảnh sử dụng; ground truth có thể không tồn tại hoặc không sẵn có.",
+    "filter": null,
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 43,
+        "evidence_quote": "The data used for building an AI system may not be a true or appropriate representation of the context or intended use of the AI system, and the ground truth may either not exist or not be available."
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p43:paragraph:500:3",
+        "text": "Compared to traditional software, AI-specific risks that are new or increased include the following: • The data used for building an AI system may not be a true or appropriate representation of the context or intended use of the AI system, and the ground truth may either not exist or not be available.",
+        "score": 0.4963529932080333,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 43
+        },
+        "auto_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p43:paragraph:500:4",
+        "text": "Additionally, harmful bias and other data quality issues can affect AI system trustworthiness, which could lead to negative impacts. • AI system dependency and reliance on data for training tasks, combined with increased volume and complexity typically associated with such data. • Intentional or unintentional changes during training may fundamentally alter AI system performance. • Datasets used to train AI systems may become detached from their original and intended context or may become stale",
+        "score": 0.4892573334652719,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 43
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p43:paragraph:500:6",
+        "text": "large-scale pre-trained models. • Privacy risk due to enhanced data aggregation capability for AI systems. • AI systems may require more frequent maintenance and triggers for conducting corrective maintenance due to data, model, or concept drift. • Increased opacity and concerns about reproducibility. • Underdeveloped software testing standards and inability to document AI-based practices to the standard expected of traditionally engineered software for all but the simplest of cases. •",
+        "score": 0.48417068009453346,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 43
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "Q30",
+    "split": "test",
+    "question": "Theo Phụ lục B, một vấn đề của dữ liệu AI khiến rủi ro khác phần mềm truyền thống là gì?",
+    "expected_answer": "Dữ liệu có thể không đại diện đúng bối cảnh sử dụng; ground truth có thể không tồn tại hoặc không sẵn có.",
+    "filter": null,
+    "gold_evidence": [
+      {
+        "gold_source_id": "nist-ai-100-1",
+        "gold_page": 43,
+        "evidence_quote": "The data used for building an AI system may not be a true or appropriate representation of the context or intended use of the AI system, and the ground truth may either not exist or not be available."
+      }
+    ],
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "nist-ai-100-1:p43:paragraph:500:3",
+        "text": "Compared to traditional software, AI-specific risks that are new or increased include the following: • The data used for building an AI system may not be a true or appropriate representation of the context or intended use of the AI system, and the ground truth may either not exist or not be available.",
+        "score": 0.4963529932080333,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 43
+        },
+        "auto_evidence_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "nist-ai-100-1:p43:paragraph:500:4",
+        "text": "Additionally, harmful bias and other data quality issues can affect AI system trustworthiness, which could lead to negative impacts. • AI system dependency and reliance on data for training tasks, combined with increased volume and complexity typically associated with such data. • Intentional or unintentional changes during training may fundamentally alter AI system performance. • Datasets used to train AI systems may become detached from their original and intended context or may become stale",
+        "score": 0.4892573334652719,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 43
+        },
+        "auto_evidence_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "nist-ai-100-1:p43:paragraph:500:6",
+        "text": "large-scale pre-trained models. • Privacy risk due to enhanced data aggregation capability for AI systems. • AI systems may require more frequent maintenance and triggers for conducting corrective maintenance due to data, model, or concept drift. • Increased opacity and concerns about reproducibility. • Underdeveloped software testing standards and inability to document AI-based practices to the standard expected of traditionally engineered software for all but the simplest of cases. •",
+        "score": 0.48417068009453346,
+        "metadata": {
+          "document_id": "nist-ai-100-1",
+          "source": "NIST.AI.100-1.pdf",
+          "page": 43
+        },
+        "auto_evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": null
+  }
+]
